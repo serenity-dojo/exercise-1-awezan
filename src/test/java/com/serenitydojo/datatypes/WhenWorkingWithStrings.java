@@ -11,7 +11,7 @@ public class WhenWorkingWithStrings {
     public void convertToLowerCase() {
         String bookTitle = "The Cat In The Hat";
 
-        String lowerCaseTitle = "";
+        String lowerCaseTitle = bookTitle.toLowerCase();
         // TODO: Convert the book title to lower case and assign it to the lowerCaseTitle variable
 
         assertThat(lowerCaseTitle, equalTo("the cat in the hat"));
@@ -22,7 +22,7 @@ public class WhenWorkingWithStrings {
     public void convertToUpperCase() {
         String bookTitle = "The Cat In The Hat";
 
-        String upperCaseTitle = "";
+        String upperCaseTitle = bookTitle.toUpperCase();
         // TODO: Convert the book title to upper case and assign it to the lowerCaseTitle variable
 
         assertThat(upperCaseTitle, equalTo("THE CAT IN THE HAT"));
